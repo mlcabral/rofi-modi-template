@@ -16,7 +16,7 @@
 #		Run rofi without any arguments
 #		if [no arguments given]
 #		then print options to stdout, separated by newlines;
-#			 rofi re-launches with the options now printed to stdout
+#		     rofi re-launches with the options now printed to stdout
 #		else run command(s) for option given as first given argument
 
 if [ -z $@ ]	# test if no arguments were given
