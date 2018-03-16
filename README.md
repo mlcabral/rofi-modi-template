@@ -16,7 +16,10 @@ rofi -modi "<modi name>:<path/to/script>" -show "<modi name>"
 ```
 ### Template pseudo-code/working principle
 - Run rofi without any arguments
-- if [no arguments given]
-- then print options to stdout, separated by newlines;
- - rofi re-launches with the options now printed to stdout
-- else run command(s) for option given as first given argument
+- if (no arguments given)
+- then {print options to stdout, separated by newlines;  
+rofi re-launches with the options now printed to stdout}
+- else {run command(s) for option given as first given argument}
+
+## Example script
+[Example script](https://github.com/marcelolcabral/rofi-modi-template/blob/master/window-layout.sh) used to change the container layout in the i3 window manager
