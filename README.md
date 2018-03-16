@@ -1,5 +1,5 @@
 # rofi-modi-template
-Basic rofi custom modi script template in bash  
+Basic rofi custom modi script template in bash
 
 ### Enable modi
 ```bash
@@ -7,14 +7,14 @@ rofi -modi "<name>:<path/to/script>"
 ```
 ### Run rofi showing only a custom modi
 ```bash
-  rofi -modi "<name>:<path/to/script>" -show <name>
+rofi -modi "<name>:<path/to/script>" -show <name>
 ```
 ```<name>``` can contain spaces, but it must be enclosed in quotes when used with ```-show```
 ```bash
 rofi -modi "<modiname>:<path/to/script>" -show <modiname>
 rofi -modi "<modi name>:<path/to/script>" -show "<modi name>"
 ```
-### Pseudo-code/working principle
+### Template pseudo-code/working principle
 - Run rofi without any arguments
 - if [no arguments given]
 - then print options to stdout, separated by newlines;
